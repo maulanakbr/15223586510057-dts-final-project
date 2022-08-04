@@ -25,7 +25,6 @@ const SearchBar = () => {
 
     fetch("https:/accounts.spotify.com/api/token", authParams)
       .then((result) => result.json())
-      // .then((data) => console.log(data.access_token));
       .then((data) => setAccessToken(data.access_token));
   }, []);
 
@@ -45,7 +44,6 @@ const SearchBar = () => {
       searchParams
     )
       .then((response) => response.json())
-      // .then((data) => console.log(data));
       .then((data) => {
         return data.artists.items[0].id;
       });
