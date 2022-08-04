@@ -1,4 +1,4 @@
-const CLIENT_ID = process.env.REACT_APP_SPOTIFY_ID;
+const CLIENT_ID = "adfd558ba58f4caf930a991d84fc377e";
 const CLIENT_SECRET = "b53f4f5e20bd45929e4547e69a8cb4bd";
 
 export { CLIENT_ID, CLIENT_SECRET };
